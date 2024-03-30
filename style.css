@@ -1,0 +1,89 @@
+ *{  /* seletor universal onde todas as configurações aqui feitas sera para todas as outras*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header {
+    background: black;
+    flex: 0.1;
+}
+
+nav{ /*a logo e as listas com menu deixar centralizado e uma ao lado da outra */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .logo{
+    font-size: 25px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+nav li{ 
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li a:hover{ /*utilizando uma animação de passar por cima o mouse*/
+    background-color: rgb(25, 226, 52);/*quando passar o mouse por cima mudar a cor de fundo*/
+}
+
+.texto_inicio{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 55px;
+}
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #333;
+}
+
+.container section{ /* utilizando flexbox para o footer fique la embaixo sem se movimentar pra nada*/
+    flex: 1 1 0;
+}
+
+h3 {
+    color: white;
+}
+
+
+.paragrafo_inicio{
+    text-align: center; /* centralizar o texto no centro*/
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(235, 235, 235);
+}
+
+.texto_copy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.computador{
+    padding: 7px;
+}

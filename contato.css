@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header {
+    background: black;
+    flex: 0.1;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .logo{
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav li a:hover{
+    background-color: rgb(25, 226, 52);
+}
+
+.copyright{
+    text-align: center;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #333;
+}
+
+.container form {
+    flex: 1 1 0;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 60px;
+    color: white;
+  }
+
+  h2{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px;
+  }
+
+  p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  ul{
+    text-align: center;
+    color: white;
+  }
+  
+  ul li .rede{ /*quando passar o mouse por cima mudar de cor o texto com link*/
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+  }
+
+  ul li .rede:hover{
+    transition: 1s;
+    color: red;
+  }
